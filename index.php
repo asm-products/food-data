@@ -1,6 +1,8 @@
 <?php
 
  // index.php
- // food-data
+ // food-data\
+ 
+ echo "hello world";
  
 ?>
