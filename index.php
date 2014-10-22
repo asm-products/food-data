@@ -1,8 +1,16 @@
 <?php
 
  // index.php
- // food-data\
+ // food-data
  
- echo "hello world";
+ if(  ):
+ 
+ elseif(  ):
+ 
+ else:
+  
+  get_404( );
+  
+ endif;
  
 ?>
