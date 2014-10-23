@@ -3,9 +3,29 @@
  // index.php
  // food-data
  
+ require_once( 'config.php' );
+ 
  if( !empty( $_GET['module'] ) && $_GET['module'] == "product" ):
   
-  echo "product";
+  // product module
+  
+  if( !empty( $_GET['action'] ) && $_GET['action'] == "update" ):
+   
+   // load update module
+   
+   echo "update product";
+   
+  elseif( empty( $_GET['action'] ) ):
+   
+   // load product
+   
+   echo "product";
+   
+  else:
+   
+   get_404( );
+   
+  endif;
  
  elseif( empty( $_GET['module'] ) ):
   
