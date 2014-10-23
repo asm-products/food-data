@@ -29,7 +29,7 @@
  
  elseif( empty( $_GET['module'] ) ):
   
-  echo "home";
+  include_once( PATH . 'template/font-page.php' );
  
  else:
   

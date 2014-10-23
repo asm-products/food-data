@@ -4,7 +4,7 @@
  // food-data
 
  $DB_NAME = 'db';
- $DB_HOST = $_ENV['DATABASE_SERVER'];
+ $DB_HOST = 'host';
  $DB_USER = 'user';
  $DB_PASS = 'pass';
  
@@ -18,5 +18,7 @@
  }
 
  define( 'PATH', dirname(__FILE__) . '/' );
+
+ require_once( PATH . 'include/function.php' );
  
 ?>
