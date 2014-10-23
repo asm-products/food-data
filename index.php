@@ -3,9 +3,13 @@
  // index.php
  // food-data
  
- if(  ):
+ if( !empty( $_GET['module'] ) && $_GET['module'] == "product" ):
+  
+  echo "product";
  
- elseif(  ):
+ elseif( empty( $_GET['module'] ) ):
+  
+  echo "home";
  
  else:
   
