@@ -1,4 +1,4 @@
 RewriteEngine on 
 
-RewriteRule ^/product/?([0-9]+)/([a-z0-9-]+)$ index.php?module=product&barcode=$1 [L]
-RewriteRule ^/product/update/?([0-9]+)/([a-z0-9-]+)$ index.php?module=product&barcode=$1&action=update [L]
+RewriteRule ^?product/([0-9]+)/([a-z0-9-]+)$ index.php?module=product&barcode=$1 [L]
+RewriteRule ^?product/update/([0-9]+)/([a-z0-9-]+)$ index.php?module=product&barcode=$1&action=update [L]
